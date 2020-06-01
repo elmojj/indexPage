@@ -7,12 +7,14 @@ import 'antd/dist/antd.css';
 class IndexPage extends React.Component {
   render() {
     const { lists, dispatch } = this.props;
+    console.log(lists);
+
     return (
       <div className={styles.normal} >
         <h1 className={styles.title}>Welcome to info-water!</h1>
         <div className={styles.welcome} />
         <div className={styles.list}>
-          <MenuList dispatch={dispatch} list={lists.lists} />
+          <MenuList dispatch={dispatch} list={lists} />
         </div>
       </div>
     );

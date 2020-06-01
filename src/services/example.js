@@ -4,5 +4,5 @@ export function query() {
   return request('/api/users');
 }
 export function getList() {
-  return request('/api/list');
+  return request('/list.json');
 }

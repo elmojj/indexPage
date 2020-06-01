@@ -2,12 +2,13 @@
 export default {
     namespace: 'list',
     state: {
-        lists: []
+        index: [],
+        testList: []
     },
     reducers: {
         updateList(state, action) {
             let currentList = deepClone(state);
-            currentList.lists = action.payload;
+            currentList = action.payload;
             return currentList;
         }
     }
