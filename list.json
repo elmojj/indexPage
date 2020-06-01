@@ -1,23 +1,23 @@
 [
     {
-    href: '/web/',
-    title: '供水在线稳定版',
+        "href": "/web/",
+        "title": "供水在线稳定版"
     },
     {
-    href: '/test/',
-    title: '供水在线内测版',
-    description: 'sdfsdfsdfsdfdsfsdfsdfsdfsf',
+        "href": "/test/",
+        "title": "供水在线内测版",
+        "description": "sdfsdfsdfsdfdsfsdfsdfsdfsf"
     },
     {
-    href: '/zentao/',
-    title: '慧水科技需求任务板',
+        "href": "/zentao/",
+        "title": "慧水科技需求任务板"
     },
     {
-    href: '/map.html',
-    title: '坐标转换工具',
+        "href": "/map.html",
+        "title": "坐标转换工具"
     },
     {
-    href: '/dma/EpaWaterWeb/dma/dma/',
-    title: 'DMA临时测试地址',
+        "href": "/dma/EpaWaterWeb/dma/dma/",
+        "title": "DMA临时测试地址"
     }
 ]
